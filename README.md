@@ -17,6 +17,13 @@ startup-order
 * producer 
 
 
+POST request to gateway
+```
+mahesh@Maheshs-MacBook-Pro target % http POST :4000/producer/send-message 'msg=tharu'
+HTTP/1.1 200 OK
+content-length: 0
+```
+
 Eureka Registry
 ```
  .   ____          _            __ _ _
