@@ -1,0 +1,14 @@
+server:
+  port: 0
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: external-message
+          content-type: application/json
+          group: external-message-group-1
+      kafka:
+        binder:
+          zkNodes: ${ZOOKEEPER_URL:http://localhost:2181}
+          brokers: ${KAFKA_URL:http://localhost:9092}

@@ -12,5 +12,7 @@
 		<module>discovery-service</module>
 		<module>config-server-service</module>
 		<module>gateway-service</module>
+		<module>producer-service</module>
+		<module>consumer-service</module>
 	</modules>
 </project>

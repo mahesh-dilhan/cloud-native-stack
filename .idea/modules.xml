@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/config-server-service/config-server-service.iml" filepath="$PROJECT_DIR$/config-server-service/config-server-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-service/consumer-service.iml" filepath="$PROJECT_DIR$/consumer-service/consumer-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/discovery-service/discovery-service.iml" filepath="$PROJECT_DIR$/discovery-service/discovery-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/event-driven-parent.iml" filepath="$PROJECT_DIR$/event-driven-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/producer-service/producer-service.iml" filepath="$PROJECT_DIR$/producer-service/producer-service.iml" />
     </modules>
   </component>
 </project>

@@ -1,2 +1,10 @@
 server:
   port: 4000
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: messge-sender
+          uri: lb://PRODUCER-SERVICE
+          predicates:
+            - Path=/producer/**
