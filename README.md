@@ -13,3 +13,6 @@ startup-order
 * Discovery 
 * Config server
 * Gateway service
+
+### TODO
+Integrate consumer and producer 
